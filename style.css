@@ -1009,6 +1009,8 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
+  object-fit: cover;
+  clip-path: circle();
 }
 
 #about .image::before {
@@ -1020,15 +1022,21 @@ nav.show div.icon-close {
   top: -16.8%;
   left: 16.7%;
   z-index: 0;
+  object-fit: cover;
+  clip-path: circle();
 }
 
 #about .image img {
   position: relative;
+  object-fit: cover;
+  clip-path: circle();
 }
 
 #about .image img,
 #about .image::before {
   border-radius: 0.25rem;
+  object-fit: cover;
+  clip-path: circle();
 }
 
 #about .text {
